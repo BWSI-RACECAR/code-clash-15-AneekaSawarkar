@@ -52,7 +52,7 @@ class Solution:
             else:
                 id_number += int(element)
             
-        return "First name = " + str(first_name) + " Last name = " + str(last_name) + " id = " + str(id_number)
+        return "First name = " + str(first_name) + ", Last name = " + str(last_name) + ", id = " + str(id_number)
                 
         pass
 
