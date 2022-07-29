@@ -52,7 +52,7 @@ class Solution:
             else:
                 id_number += element
             
-            return "First name = " + first_name + " Last name = " + last_name + " id = " + id_number"
+            return "First name = " + first_name + " Last name = " + last_name + " id = " + id_number
                 
         pass
 
