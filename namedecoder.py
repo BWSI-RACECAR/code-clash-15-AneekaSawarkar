@@ -40,7 +40,7 @@ class Solution:
         first_name = ""
         last_name = ""
         zero_count = 0
-        id = 0
+        id_number = 0
         for i, element in enumerate(id):
             if element.isalpha():
                 if zero_count == 0:
@@ -50,9 +50,9 @@ class Solution:
             elif element == 0:
                 zero_count += 1 
             else:
-                id += element
+                id_number += element
             
-            return "First name = {first_name}, Last name = {last_name}, id = {id}"
+            return "First name = {first_name}, Last name = {last_name}, id = {id_number}"
                 
         pass
 
