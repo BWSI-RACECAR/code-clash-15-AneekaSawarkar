@@ -47,7 +47,7 @@ class Solution:
                     first_name += element
                 else:
                     last_name += element
-            elif element == 0:
+            elif int(element) == 0:
                 zero_count += 1 
             else:
                 id_number += int(element)
