@@ -41,7 +41,7 @@ class Solution:
         last_name = ""
         zero_count = 0
         id_number = 0
-        for i, element in enumerate(id):
+        for element in id:
             if element.isalpha():
                 if zero_count == 0:
                     first_name += element
