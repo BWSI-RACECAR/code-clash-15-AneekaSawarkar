@@ -40,7 +40,7 @@ class Solution:
         first_name = ""
         last_name = ""
         zero_count = 0
-        id_number = 0
+        id_number = ""
         for element in id:
             if element.isalpha():
                 if zero_count == 0:
@@ -50,7 +50,7 @@ class Solution:
             elif int(element) == 0:
                 zero_count += 1 
             else:
-                id_number += int(element)
+                id_number += element
             
         return "First name = " + str(first_name) + ", Last name = " + str(last_name) + ", id = " + str(id_number)
                 
