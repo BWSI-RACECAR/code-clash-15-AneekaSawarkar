@@ -42,6 +42,7 @@ class Solution:
         zero_count = 0
         id_number = 0
         for element in id:
+            print(element)
             if element.isalpha():
                 if zero_count == 0:
                     first_name += element
@@ -52,7 +53,7 @@ class Solution:
             else:
                 id_number += element
             
-            return "First name = " + str(first_name) + " Last name = " + str(last_name) + " id = " + str(id_number)
+        return "First name = " + str(first_name) + " Last name = " + str(last_name) + " id = " + str(id_number)
                 
         pass
 
